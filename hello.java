@@ -8,4 +8,3 @@
 // OOP= in java class is a user defined data type and its variable is called object the object is by default referance type
 // The class can hold functions and variables . The functions of the class is called member and variables in the class are called data member 
 // The object of a class can access aby data memeber of class
-// HEWy
