@@ -28,6 +28,7 @@ Student s4= new student("Abhi");
 
 When static keyword is prefixed with any method of the class then the method is called static method,it can access only static member of same class directly
 The function can be accessed by class name directly that's why when we execute any java program
+// hii
 
 
 
