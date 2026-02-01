@@ -30,7 +30,7 @@ When static keyword is prefixed with any method of the class then the method is 
 The function can be accessed by class name directly that's why when we execute any java program
 // hii
 // welcome 
-
+// 1st feb
 
 
 
