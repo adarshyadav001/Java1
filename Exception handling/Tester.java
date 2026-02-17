@@ -22,6 +22,9 @@ class Tester
         catch(Exception ex){
             System.out.println(ex.getMessage());
         }
+        finally{
+            
+        }
     }
     
 }
