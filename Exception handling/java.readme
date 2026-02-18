@@ -1,0 +1,5 @@
+we can write multiple catch block for a single try block
+The catch block should be straight from top to bottom after try block
+If any exception occured at runtime it will go to respected catch block , each catch block can hold specific type of exception if any exception not match then it will move to the last catch block that should contain exception class object
+through keyword is used to generate any conditional exception that is defined by the user , these exception are called unchecked exception
+create a class you take roll number and percentage of marks and generate exception on negative roll number and percentage greater than hundred or less than zero
