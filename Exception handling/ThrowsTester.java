@@ -6,7 +6,9 @@ class ATM{
     public void setBalance(int balance) {
         this.balance = balance;
     }
-    public void deposit(int amt){
+    public void deposit(int amt) throws Exception{
+        System.out.println("Deposit: " +amt);
+        throw new Exception("-ve amount is incvalid to deposit");
         balance += amt;
 
     }
@@ -14,6 +16,7 @@ class ATM{
         if(amt>balance)
             System.out.println("Insufficient balance");
         else
+            System.out.println("Withdraw: " +amt);
         balance -= amt;
     }
 }
