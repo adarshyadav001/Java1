@@ -1,3 +1,4 @@
+
 class ATM {
     private int balance = 5000;
 
@@ -6,7 +7,7 @@ class ATM {
     }
 
     public void deposit(int amt) throws Exception {
-        if (amt < 0) {
+        if (amt <= 0) {
             throw new Exception("Negative amount is invalid to deposit");
         }
         balance += amt;
@@ -14,7 +15,7 @@ class ATM {
     }
 
     public void withdraw(int amt) throws Exception {
-        if (amt < 0) {
+        if (amt <= 0) {
             throw new Exception("Negative amount is invalid to withdraw");
         }
         if (amt > balance) {
