@@ -1,0 +1,2 @@
+generic class can not be defined for not specific datatype
+the data type for class member will be decided at object creation  it uses angle<> brackets to use datatype during object creation 
