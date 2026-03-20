@@ -1,3 +1,4 @@
 collections of onjectsp
 it is not a ds
 every data type of java is represented by a particular class that class is called wrapper class 
+Write a program to enter any day and print out with its week days or weekend or invalid with the help of switch case
